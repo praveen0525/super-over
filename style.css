@@ -1,0 +1,75 @@
+.imain{
+    height: 600px;
+    width: 800px;
+    background:rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.main{
+    height: 400px;
+    width: 700px;
+    display: flex;
+  
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.scores{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.totalscore{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+img[src="./rcb.jpg"]{
+    height: 150px;
+    width: 100px;
+    padding: 40px;
+}
+img[src="./srh.jpg"]{
+    height: 150px;
+    width: 200px;
+    padding: 40px;
+}
+.h{
+    margin: 10px;
+}
+.name{
+    padding-top: 20px;
+    width: 800px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+#buttons{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+    
+}
+input[type="button"]{
+    width:300px;
+    height:50px;
+    border-radius: 40px;
+    background-color: rgb(53, 151, 249);
+   
+}
+body{
+    background-image: url("https://imgs.search.brave.com/1xRF278FiHdHqiyJp5jackq-08TqdSs7duNJP3M7eAs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzI4LzA4Lzgy/LzM2MF9GXzYyODA4/ODI1N19LeFlxaWFU/ZFkzNzlsQzA2d0xm/aEpTNUtDclVuWjdK/ZC5qcGc");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2{
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
